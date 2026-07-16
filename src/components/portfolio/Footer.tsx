@@ -30,7 +30,7 @@ export function Footer() {
             <Github size={16} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/maykehonorato/"
             aria-label="LinkedIn"
             className="grid h-10 w-10 place-items-center rounded-xl glass transition-colors hover:bg-white/10"
           >
