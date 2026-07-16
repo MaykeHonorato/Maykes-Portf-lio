@@ -9,8 +9,8 @@ type FormValues = { name: string; email: string; message: string };
 const socials = [
   { icon: Linkedin, label: "LinkedIn", value: "/in/maykehonorato", href: "https://www.linkedin.com/in/maykehonorato/" },
   { icon: Github, label: "GitHub", value: "@maykehonorato", href: "https://github.com/MaykeHonorato" },
-  { icon: Mail, label: "Email", value: "mayke@exemplo.com", href: "mailto:mayke@exemplo.com" },
-  { icon: MessageCircle, label: "WhatsApp", value: "+55 (00) 00000-0000", href: "https://wa.me/5500000000000" },
+  { icon: Mail, label: "Email", value: "maike-honorato@hotmail.com", href: "mailto:maike-honorato@hotmail.com" },
+  { icon: MessageCircle, label: "WhatsApp", value: "+55 (11) 98728-2647", href: "https://wa.me/5511987282647" },
 ];
 
 export function Contact() {
