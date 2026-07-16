@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Mayke Honorato · Analista de Dados & BI" },
+      { name: "description", content: "Portfólio de Mayke Honorato — Analista de Dados especializado em Power BI, SQL, ETL e Cloud (AWS, Azure, Databricks)." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Mayke Honorato · Analista de Dados & BI" },
+      { property: "og:description", content: "Portfólio de Mayke Honorato — Analista de Dados especializado em Power BI, SQL, ETL e Cloud (AWS, Azure, Databricks)." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Mayke Honorato · Analista de Dados & BI" },
+      { name: "twitter:description", content: "Portfólio de Mayke Honorato — Analista de Dados especializado em Power BI, SQL, ETL e Cloud (AWS, Azure, Databricks)." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0835c372-ca5a-4379-8669-ff5c9fe6e49d/id-preview-dc0ee991--e2f3b4ae-6fb7-4043-b57f-70410f5bc153.lovable.app-1784161648625.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0835c372-ca5a-4379-8669-ff5c9fe6e49d/id-preview-dc0ee991--e2f3b4ae-6fb7-4043-b57f-70410f5bc153.lovable.app-1784161648625.png" },
     ],
     links: [
       {

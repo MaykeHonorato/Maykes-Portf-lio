@@ -24,7 +24,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Projetos de BI, dashboards Power BI, SQL, Databricks e Cloud. Transformando dados em decisão.",
+          "Portfólio de Mayke Honorato — Analista de Dados especializado em Power BI, SQL, ETL e Cloud (AWS, Azure, Databricks).",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
