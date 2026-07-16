@@ -24,6 +24,8 @@ export function Footer() {
         <div className="flex shrink-0 items-center gap-2">
           <a
             href="https://github.com/MaykeHonorato"
+            target="_blank"
+            rel="noreferrer"
             aria-label="GitHub"
             className="grid h-10 w-10 place-items-center rounded-xl glass transition-colors hover:bg-white/10"
           >
@@ -31,6 +33,8 @@ export function Footer() {
           </a>
           <a
             href="https://www.linkedin.com/in/maykehonorato/"
+            target="_blank"
+            rel="noreferrer"
             aria-label="LinkedIn"
             className="grid h-10 w-10 place-items-center rounded-xl glass transition-colors hover:bg-white/10"
           >
