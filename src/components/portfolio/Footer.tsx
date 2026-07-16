@@ -23,7 +23,7 @@ export function Footer() {
         </div>
         <div className="flex shrink-0 items-center gap-2">
           <a
-            href="https://github.com"
+            href="https://github.com/MaykeHonorato"
             aria-label="GitHub"
             className="grid h-10 w-10 place-items-center rounded-xl glass transition-colors hover:bg-white/10"
           >

@@ -70,7 +70,7 @@ export function Hero() {
               Download CV
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/MaykeHonorato"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-xl glass px-5 py-3 text-sm font-semibold transition-all duration-300 hover:border-brand-purple hover:bg-white/10"
