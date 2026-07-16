@@ -1,6 +1,8 @@
 import { Download, Github, Linkedin, Mail } from "lucide-react";
 import { motion } from "motion/react";
-import mayke from "@/assets/mayke.jpg";
+import maykeAsset from "@/assets/mayke.png.asset.json";
+
+const mayke = maykeAsset.url;
 
 export function Hero() {
   return (
