@@ -78,7 +78,7 @@ export function Hero() {
               <Github size={16} /> GitHub
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/maykehonorato/"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-xl glass px-5 py-3 text-sm font-semibold transition-all duration-300 hover:border-brand-blue hover:bg-white/10"
