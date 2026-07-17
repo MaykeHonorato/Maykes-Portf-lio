@@ -4,13 +4,13 @@ import { SectionHeading } from "./SectionHeading";
 
 const exp = [
   {
-    role: "Analista de Sistemas",
+    role: "Analista de Sistemas Júnior",
     place: "Suporte Hospitalar",
     period: "Atual",
     bullets: [
-      "Administração de Active Directory e controle de acessos",
-      "Sustentação do Sistema MV e integrações internas",
-      "Infraestrutura e atendimento N2 a usuários clínicos",
+      "Atuo em ambiente hospitalar com sustentação do Sistema MV, suporte técnico N2 e administração de acessos via Active Directory.",
+      "Também desenvolvo soluções de Business Intelligence, utilizando SQL, Power BI, Power Query, Power Pivot e processos de ETL para transformar dados em informações estratégicas e apoiar a tomada de decisão.",
+      "Participei da implantação dos projetos Mevo e Recepção Digital, além do desenvolvimento de dashboards para monitoramento de indicadores e eficiência operacional.",
     ],
   },
 ];
