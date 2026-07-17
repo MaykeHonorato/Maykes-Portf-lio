@@ -6,24 +6,14 @@ import sales from "@/assets/project-sales.jpg";
 import finance from "@/assets/project-finance.jpg";
 import hr from "@/assets/project-hr.jpg";
 import logistics from "@/assets/project-logistics.jpg";
-import sql from "@/assets/project-sql.jpg";
-import hospital from "@/assets/project-hospital.jpg";
 import etl from "@/assets/project-etl.jpg";
-import databricks from "@/assets/project-databricks.jpg";
-import mongo from "@/assets/project-mongo.jpg";
-import aws from "@/assets/project-aws.jpg";
 
 const projects = [
   { title: "Dashboard de Vendas Power BI", desc: "Análise completa de vendas com KPIs, tendências e drill-through.", img: sales, tags: ["Power BI", "DAX", "Power Query"] },
   { title: "Dashboard Financeiro", desc: "Monitoramento de receita, despesas e projeções financeiras.", img: finance, tags: ["Power BI", "SQL", "Excel"] },
   { title: "Dashboard RH", desc: "Indicadores de headcount, turnover e clima organizacional.", img: hr, tags: ["Power BI", "DAX", "SQL"] },
   { title: "Dashboard Logística", desc: "Rotas, prazos e custos de entrega em tempo quase real.", img: logistics, tags: ["Power BI", "SQL", "ETL"] },
-  { title: "Análise de Dados SQL", desc: "Queries analíticas complexas com CTEs e window functions.", img: sql, tags: ["SQL", "PostgreSQL"] },
-  { title: "Banco de Dados Hospitalar", desc: "Modelagem relacional para prontuário eletrônico e agendamento.", img: hospital, tags: ["Oracle", "Modelagem", "SQL"] },
   { title: "Sistema ETL", desc: "Pipelines de ingestão e transformação com orquestração.", img: etl, tags: ["Python", "SQL", "ETL"] },
-  { title: "Projeto Databricks", desc: "Lakehouse com PySpark, Delta Lake e notebooks colaborativos.", img: databricks, tags: ["Databricks", "PySpark", "Delta"] },
-  { title: "Análise MongoDB", desc: "Consultas de agregação e schema design para documentos.", img: mongo, tags: ["MongoDB", "NoSQL"] },
-  { title: "AWS Cloud Labs", desc: "Laboratórios com EC2, S3, Lambda e IAM.", img: aws, tags: ["AWS", "Cloud", "IAM"] },
 ];
 
 export function Projects() {
