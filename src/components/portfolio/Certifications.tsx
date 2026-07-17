@@ -28,6 +28,12 @@ export function Certifications() {
     <section id="certificacoes" className="relative py-24">
       <div className="mx-auto max-w-4xl px-4">
         <SectionHeading eyebrow="Certificações" title="Trilha de aprendizado" />
+        <p className="-mt-6 mb-8 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+          <Clock size={14} className="text-brand-blue" />
+          <span>
+            <span className="font-medium text-foreground">Em andamento</span> — Estudando atualmente ou aprofundando conhecimentos.
+          </span>
+        </p>
         <div className="relative">
           <div className="absolute left-4 top-2 bottom-2 w-px bg-gradient-to-b from-brand-purple via-brand-blue to-transparent sm:left-6" />
           <div className="space-y-5">
