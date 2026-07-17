@@ -24,12 +24,12 @@ const groups: Group[] = [
     icon: BarChart3,
     accent: "from-brand-blue to-brand-cyan",
     skills: [
-      { name: "Power BI", level: 90 },
-      { name: "Power Query", level: 85 },
-      { name: "Power Pivot", level: 80 },
-      { name: "DAX", level: 80 },
-      { name: "Excel", level: 90 },
-      { name: "ETL", level: 78 },
+      { name: "Power BI", level: 70 },
+      { name: "Power Query", level: 75 },
+      { name: "Power Pivot", level: 60 },
+      { name: "DAX", level: 60 },
+      { name: "Excel", level: 60 },
+      { name: "ETL", level: 60 },
     ],
   },
   {
