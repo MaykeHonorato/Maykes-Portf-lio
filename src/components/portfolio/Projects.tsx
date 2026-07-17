@@ -2,15 +2,22 @@ import { ExternalLink, Github } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { SectionHeading } from "./SectionHeading";
 
-import sales from "@/assets/project-sales.jpg";
 import finance from "@/assets/project-finance.jpg";
 import hr from "@/assets/project-hr.jpg";
+import alteryxAsset from "@/assets/project-alteryx.png.asset.json";
 
-const projects = [
-  { title: "Dashboard de Vendas Power BI", desc: "Análise completa de vendas com KPIs, tendências e drill-through.", img: sales, tags: ["Power BI", "DAX", "Power Query"] },
+const projects: { title: string; desc: string; img: string; tags: string[]; repo?: string }[] = [
+  {
+    title: "Laboratório de Estudo Alteryx",
+    desc: "Fluxo de estudo no Alteryx Designer explorando ingestão, limpeza, transformação e união de dados a partir de planilhas Excel e arquivos XML.",
+    img: alteryxAsset.url,
+    tags: ["Alteryx", "ETL", "Excel", "XML"],
+    repo: "https://github.com/MaykeHonorato/fluxos-no-Alteryx-Designer-.git",
+  },
   { title: "Dashboard Financeiro", desc: "Monitoramento de receita, despesas e projeções financeiras.", img: finance, tags: ["Power BI", "SQL", "Excel"] },
   { title: "Dashboard RH", desc: "Indicadores de headcount, turnover e clima organizacional.", img: hr, tags: ["Power BI", "DAX", "SQL"] },
 ];
+
 
 
 export function Projects() {
@@ -54,7 +61,7 @@ export function Projects() {
                   </div>
                   <div className="mt-auto flex gap-2 pt-2">
                     <a
-                      href="https://github.com/MaykeHonorato"
+                      href={p.repo ?? "https://github.com/MaykeHonorato"}
                       target="_blank"
                       rel="noreferrer"
                       className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg glass px-3 py-2 text-xs font-semibold transition-colors hover:bg-white/10"
