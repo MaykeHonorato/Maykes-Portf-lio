@@ -2,9 +2,9 @@ import { ExternalLink, Github } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { SectionHeading } from "./SectionHeading";
 
-import hr from "@/assets/project-hr.jpg";
 import alteryxAsset from "@/assets/alteryx-logo.png.asset.json";
 import urbanAsset from "@/assets/urban-mobility.png.asset.json";
+import financeiroAsset from "@/assets/dashboard-financeiro.png.asset.json";
 
 const projects: { title: string; desc: string; img: string; tags: string[]; repo?: string; demo?: string }[] = [
   {
@@ -24,7 +24,7 @@ const projects: { title: string; desc: string; img: string; tags: string[]; repo
   {
     title: "Dashboard Financeiro",
     desc: "Análise financeira com receitas, despesas, margem e fluxo de caixa para suporte à gestão executiva.",
-    img: hr,
+    img: financeiroAsset.url,
     tags: ["Power BI", "DAX", "Finance"],
     demo: "https://app.powerbi.com/view?r=eyJrIjoiMjM0ZGM3MjgtN2E5My00ZGRjLTllYTEtNThlMjRlZjk3MTgyIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
   },
