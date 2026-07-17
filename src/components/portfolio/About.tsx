@@ -5,7 +5,7 @@ import { SectionHeading } from "./SectionHeading";
 
 const stats = [
   { value: 6, suffix: "+", label: "Projetos", icon: Briefcase },
-  { value: 20, suffix: "+", label: "Certificações", icon: GraduationCap },
+  
   { value: 1000, suffix: "+", label: "Horas de estudo", icon: Target },
   { value: 30, suffix: "+", label: "Tecnologias", icon: Sparkles },
 ];
