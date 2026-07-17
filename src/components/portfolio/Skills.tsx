@@ -37,11 +37,9 @@ const groups: Group[] = [
     icon: Cloud,
     accent: "from-brand-purple to-brand-cyan",
     skills: [
-      { name: "AWS", level: 75 },
-      { name: "Azure", level: 70 },
-      { name: "Databricks", level: 75 },
-      { name: "GitHub", level: 85 },
-      { name: "Docker", level: 65 },
+      { name: "AWS", level: 45 },
+      { name: "Databricks", level: 35 },
+      { name: "Git/GitHub", level: 60 },
     ],
   },
   {
