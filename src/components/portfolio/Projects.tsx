@@ -14,7 +14,7 @@ const projects: { title: string; desc: string; img: string; tags: string[]; repo
     tags: ["Alteryx", "ETL", "Excel", "XML"],
     repo: "https://github.com/MaykeHonorato/fluxos-no-Alteryx-Designer-.git",
   },
-  { title: "Dashboard Financeiro", desc: "Monitoramento de receita, despesas e projeções financeiras.", img: finance, tags: ["Power BI", "SQL", "Excel"] },
+  { title: "Urban Mobility Dashboard", desc: "Dashboard de mobilidade urbana com análise de viagens de bikes compartilhadas, incluindo Análise 2018 e Análise Geral com métricas por estação, gênero, faixa etária e período.", img: finance, tags: ["Power BI", "DAX", "Data Viz"] },
   { title: "Dashboard RH", desc: "Indicadores de headcount, turnover e clima organizacional.", img: hr, tags: ["Power BI", "DAX", "SQL"] },
 ];
 
