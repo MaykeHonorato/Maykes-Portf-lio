@@ -74,12 +74,16 @@ export function Projects() {
                     >
                       <Github size={14} /> Código
                     </a>
-                    <a
-                      href="#"
-                      className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg gradient-brand px-3 py-2 text-xs font-semibold text-white transition-transform hover:scale-105"
-                    >
-                      <ExternalLink size={14} /> Demo
-                    </a>
+                    {p.demo && (
+                      <a
+                        href={p.demo}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg gradient-brand px-3 py-2 text-xs font-semibold text-white transition-transform hover:scale-105"
+                      >
+                        <ExternalLink size={14} /> Demo
+                      </a>
+                    )}
                   </div>
                 </div>
               </article>
