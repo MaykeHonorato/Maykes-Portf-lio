@@ -21,7 +21,13 @@ const projects: { title: string; desc: string; img: string; tags: string[]; repo
     tags: ["Power BI", "DAX", "Data Viz"],
     demo: "https://app.powerbi.com/view?r=eyJrIjoiOTM3NjZmNTMtMjNlMC00Y2E2LWExYTgtMDA5OTQyZGY0Y2ExIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
   },
-  { title: "Dashboard RH", desc: "Indicadores de headcount, turnover e clima organizacional.", img: hr, tags: ["Power BI", "DAX", "SQL"] },
+  {
+    title: "Dashboard Financeiro",
+    desc: "Análise financeira com receitas, despesas, margem e fluxo de caixa para suporte à gestão executiva.",
+    img: hr,
+    tags: ["Power BI", "DAX", "Finance"],
+    demo: "https://app.powerbi.com/view?r=eyJrIjoiMjM0ZGM3MjgtN2E5My00ZGRjLTllYTEtNThlMjRlZjk3MTgyIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
+  },
 ];
 
 
