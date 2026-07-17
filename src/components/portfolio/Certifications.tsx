@@ -5,13 +5,16 @@ import { SectionHeading } from "./SectionHeading";
 type Status = "done" | "in-progress" | "planned";
 
 const items: { title: string; issuer: string; status: Status }[] = [
+  { title: "SQL Server", issuer: "Fundamentos de Banco de Dados", status: "done" },
+  { title: "Lógica de Programação", issuer: "Algoritmos e Estruturas de Controle", status: "done" },
+  { title: "Estatística Básica", issuer: "Conceitos Fundamentais para Análise de Dados", status: "in-progress" },
+  { title: "Pensamento Analítico", issuer: "Análise e Resolução de Problemas", status: "in-progress" },
+  { title: "Power BI", issuer: "Dashboards, DAX, Power Query e ETL", status: "in-progress" },
+  { title: "Python", issuer: "Programação para Dados e Automação", status: "in-progress" },
+  { title: "Databricks", issuer: "Apache Spark, Delta Lake e Engenharia de Dados", status: "in-progress" },
   { title: "AWS Cloud Practitioner", issuer: "Amazon Web Services", status: "in-progress" },
-  { title: "PL-300 Power BI Data Analyst", issuer: "Microsoft", status: "in-progress" },
-  { title: "GitHub Foundations", issuer: "GitHub", status: "done" },
-  { title: "Databricks Fundamentals", issuer: "Databricks Academy", status: "done" },
-  { title: "Oracle Autonomous Database", issuer: "Oracle University", status: "done" },
-  { title: "Microsoft Learn — Data & AI", issuer: "Microsoft", status: "in-progress" },
-  { title: "Cisco Networking Academy", issuer: "Cisco", status: "planned" },
+  { title: "Git & GitHub", issuer: "Versionamento de Código e Portfólio", status: "in-progress" },
+  { title: "MongoDB", issuer: "Banco de Dados NoSQL", status: "in-progress" },
 ];
 
 const statusMap: Record<Status, { label: string; icon: typeof CheckCircle2; className: string }> = {
