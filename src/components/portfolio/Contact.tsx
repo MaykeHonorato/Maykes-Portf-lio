@@ -23,12 +23,22 @@ export function Contact() {
   const [sent, setSent] = useState(false);
 
   const onSubmit = async (data: FormValues) => {
-    const text = `Olá, meu nome é ${data.name} (${data.email}).%0A%0A${encodeURIComponent(data.message)}`;
-    window.open(`https://wa.me/5511987282647?text=${text}`, "_blank", "noopener,noreferrer");
+    const text = encodeURIComponent(
+      `Olá, meu nome é ${data.name} (${data.email}).\n\n${data.message}`,
+    );
+    const url = `https://wa.me/5511987282647?text=${text}`;
+    const a = document.createElement("a");
+    a.href = url;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
     setSent(true);
     reset();
     setTimeout(() => setSent(false), 4000);
   };
+
 
 
   return (
