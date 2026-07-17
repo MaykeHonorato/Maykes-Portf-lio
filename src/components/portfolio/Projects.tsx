@@ -4,7 +4,7 @@ import { SectionHeading } from "./SectionHeading";
 
 import finance from "@/assets/project-finance.jpg";
 import hr from "@/assets/project-hr.jpg";
-import alteryxAsset from "@/assets/project-alteryx.png.asset.json";
+import alteryxAsset from "@/assets/alteryx-logo.png.asset.json";
 
 const projects: { title: string; desc: string; img: string; tags: string[]; repo?: string }[] = [
   {
