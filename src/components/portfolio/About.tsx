@@ -7,7 +7,7 @@ const stats = [
   { value: 6, suffix: "+", label: "Projetos", icon: Briefcase },
   
   { value: 1000, suffix: "+", label: "Horas de estudo", icon: Target },
-  { value: 11, suffix: "+", label: "Tecnologias", icon: Sparkles },
+  { value: 30, suffix: "+", label: "Tecnologias", icon: Sparkles },
 ];
 
 function useCountUp(target: number, duration = 1600) {
