@@ -6,7 +6,7 @@ import finance from "@/assets/project-finance.jpg";
 import hr from "@/assets/project-hr.jpg";
 import alteryxAsset from "@/assets/alteryx-logo.png.asset.json";
 
-const projects: { title: string; desc: string; img: string; tags: string[]; repo?: string }[] = [
+const projects: { title: string; desc: string; img: string; tags: string[]; repo?: string; demo?: string }[] = [
   {
     title: "Laboratório de Estudo Alteryx",
     desc: "Fluxo de estudo no Alteryx Designer explorando ingestão, limpeza, transformação e união de dados a partir de planilhas Excel e arquivos XML.",
@@ -14,7 +14,13 @@ const projects: { title: string; desc: string; img: string; tags: string[]; repo
     tags: ["Alteryx", "ETL", "Excel", "XML"],
     repo: "https://github.com/MaykeHonorato/fluxos-no-Alteryx-Designer-.git",
   },
-  { title: "Urban Mobility Dashboard", desc: "Dashboard de mobilidade urbana com análise de viagens de bikes compartilhadas, incluindo Análise 2018 e Análise Geral com métricas por estação, gênero, faixa etária e período.", img: finance, tags: ["Power BI", "DAX", "Data Viz"] },
+  {
+    title: "Urban Mobility Dashboard",
+    desc: "Dashboard de mobilidade urbana com análise de viagens de bikes compartilhadas, incluindo Análise 2018 e Análise Geral com métricas por estação, gênero, faixa etária e período.",
+    img: finance,
+    tags: ["Power BI", "DAX", "Data Viz"],
+    demo: "https://app.powerbi.com/view?r=eyJrIjoiOTM3NjZmNTMtMjNlMC00Y2E2LWExYTgtMDA5OTQyZGY0Y2ExIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
+  },
   { title: "Dashboard RH", desc: "Indicadores de headcount, turnover e clima organizacional.", img: hr, tags: ["Power BI", "DAX", "SQL"] },
 ];
 
