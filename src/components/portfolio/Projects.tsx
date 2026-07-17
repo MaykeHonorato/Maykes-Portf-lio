@@ -61,7 +61,7 @@ export function Projects() {
                   </div>
                   <div className="mt-auto flex gap-2 pt-2">
                     <a
-                      href="https://github.com/MaykeHonorato"
+                      href={p.repo ?? "https://github.com/MaykeHonorato"}
                       target="_blank"
                       rel="noreferrer"
                       className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg glass px-3 py-2 text-xs font-semibold transition-colors hover:bg-white/10"
