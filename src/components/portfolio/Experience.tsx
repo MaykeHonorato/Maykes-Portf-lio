@@ -17,13 +17,22 @@ const exp = [
 
 const edu = [
   { title: "Análise e Desenvolvimento de Sistemas", place: "Graduação" },
-  { title: "Cursos Microsoft Learn", place: "Trilhas de Dados & IA" },
-  { title: "AWS Skill Builder", place: "Cloud Practitioner Path" },
-  { title: "Databricks Academy", place: "Lakehouse Fundamentals" },
-  { title: "Oracle University", place: "Autonomous Database" },
-  { title: "Cisco Networking Academy", place: "Networking Essentials" },
-  { title: "Fundação Bradesco", place: "Cursos livres de tecnologia" },
+  {
+    title: "Alura",
+    place:
+      "Trilha de Análise de Dados, Power BI, SQL, AWS, MongoDB, Git/GitHub, Inteligência Artificial e Cloud Computing.",
+  },
+  {
+    title: "DIO (Digital Innovation One)",
+    place:
+      "Bootcamps e cursos em Power BI, SQL, AWS, Excel, Data, GitHub, Inteligência Artificial, ETL, Azure e Arquitetura de Sistemas.",
+  },
+  {
+    title: "Hashtag Treinamentos / Power BI Pro",
+    place: "Power BI, Dashboards e Business Intelligence.",
+  },
 ];
+
 
 export function Experience() {
   return (
