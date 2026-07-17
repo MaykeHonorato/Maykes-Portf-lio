@@ -7,7 +7,7 @@ import { Certifications } from "@/components/portfolio/Certifications";
 import { Projects } from "@/components/portfolio/Projects";
 import { Experience } from "@/components/portfolio/Experience";
 
-import { GitHubStats } from "@/components/portfolio/GitHubStats";
+
 import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
 
@@ -45,7 +45,7 @@ function Index() {
         <Certifications />
         <Experience />
         
-        <GitHubStats />
+        
         <Contact />
       </main>
       <Footer />
