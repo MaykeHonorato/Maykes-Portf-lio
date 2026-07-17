@@ -6,7 +6,7 @@ import finance from "@/assets/project-finance.jpg";
 import hr from "@/assets/project-hr.jpg";
 import alteryxAsset from "@/assets/project-alteryx.png.asset.json";
 
-const projects = [
+const projects: { title: string; desc: string; img: string; tags: string[]; repo?: string }[] = [
   {
     title: "Laboratório de Estudo Alteryx",
     desc: "Fluxo de estudo no Alteryx Designer explorando ingestão, limpeza, transformação e união de dados a partir de planilhas Excel e arquivos XML.",
