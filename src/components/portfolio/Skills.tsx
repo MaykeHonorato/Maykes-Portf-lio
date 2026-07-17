@@ -47,11 +47,11 @@ const groups: Group[] = [
     icon: Code2,
     accent: "from-brand-blue to-brand-purple",
     skills: [
-      { name: "Python", level: 78 },
-      { name: "SQL", level: 90 },
-      { name: "JavaScript", level: 65 },
-      { name: "HTML", level: 80 },
-      { name: "CSS", level: 75 },
+      { name: "Python", level: 50 },
+      { name: "SQL", level: 50 },
+      { name: "JavaScript", level: 50 },
+      { name: "HTML5", level: 50 },
+      { name: "CSS3", level: 50 },
     ],
   },
 ];
