@@ -23,13 +23,13 @@ export function Contact() {
   const [sent, setSent] = useState(false);
 
   const onSubmit = async (data: FormValues) => {
-    // Placeholder: integrate EmailJS or backend later
-    await new Promise((r) => setTimeout(r, 800));
-    console.log("contact form:", data);
+    const text = `Olá, meu nome é ${data.name} (${data.email}).%0A%0A${encodeURIComponent(data.message)}`;
+    window.open(`https://wa.me/5511987282647?text=${text}`, "_blank", "noopener,noreferrer");
     setSent(true);
     reset();
     setTimeout(() => setSent(false), 4000);
   };
+
 
   return (
     <section id="contato" className="relative py-24">
