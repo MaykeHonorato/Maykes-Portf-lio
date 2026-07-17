@@ -17,7 +17,7 @@ const projects: { title: string; desc: string; img: string; tags: string[]; repo
   {
     title: "Urban Mobility Dashboard",
     desc: "Dashboard de mobilidade urbana com análise de viagens de bikes compartilhadas, incluindo Análise 2018 e Análise Geral com métricas por estação, gênero, faixa etária e período.",
-    img: finance,
+    img: urbanAsset.url,
     tags: ["Power BI", "DAX", "Data Viz"],
     demo: "https://app.powerbi.com/view?r=eyJrIjoiOTM3NjZmNTMtMjNlMC00Y2E2LWExYTgtMDA5OTQyZGY0Y2ExIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
   },
