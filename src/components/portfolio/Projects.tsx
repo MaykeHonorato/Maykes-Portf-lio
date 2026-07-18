@@ -2,9 +2,9 @@ import { ExternalLink, Github } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { SectionHeading } from "./SectionHeading";
 
-import alteryxAsset from "@/assets/alteryx-logo.png.asset.json";
-import urbanAsset from "@/assets/urban-mobility.png.asset.json";
-import financeiroAsset from "@/assets/dashboard-financeiro.png.asset.json";
+import alteryxImg from "@/assets/alteryx-logo.png";
+import urbanImg from "@/assets/urban-mobility.png";
+import financeiroImg from "@/assets/dashboard-financeiro.png";
 
 const projects: { title: string; desc: string; img: string; tags: string[]; repo?: string; demo?: string }[] = [
   {
